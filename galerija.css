@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffB48F;
+}
+
+li, a, button {
+    font-family: "Lobster", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(237, 33, 128);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: -150px;
+    height: 150px;
+}
+
+.nav_link {
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_link li a:hover {
+    color: rgba(144, 1, 76, 0.9)
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(59, 0, 33);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(137, 46, 127, 0.5); 
+}
+
+.glavni_naslov {
+    font-family: "lobster", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 4px 4px rgba(59, 0, 33, 0.88);
+    text-align: center;
+    color: rgb(237, 33, 128);
+    text-decoration-line: underline;
+    border-bottom:20px groove rgba(137, 46, 127, 0.5);
+    border-top: 20px ridge rgba(137, 46, 127, 0.5);
+    padding: 20px;
+    margin: auto;}
+
+.section1 {
+        position: relative;
+        top: 30px;
+    }
+
+    .levaslika {
+        position:absolute;
+        top:10%;
+        left:10%;
+        width: 20%;
+      }
+    .levaslika img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .levopreklapanje {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(211, 75, 138, 0.581) ;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: 3s ease;
+    }
+     
+    .section1:hover .levopreklapanje{
+        width: 100%;
+    }
+
+    .levitekst {
+        white-space: nowrap; 
+        color: rgb(59, 0, 33);
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Lobster",sans-serif;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+
+    
+    .srednjaslika {
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        width: 20%;
+
+    }
+
+    .srednjaslika img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .srednjepreklapanje {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(211, 75, 138, 0.581);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: 3s ease;
+    }
+
+    .section1:hover .srednjepreklapanje {
+        bottom: 0;
+        height: 100%;
+    }
+
+    .srednjitekst {
+        white-space: nowrap; 
+        color: rgb(59, 0, 33);
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Lobster",sans-serif;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    
+    .desnaslika {
+        position: absolute;
+        top: 10%;
+        left: 70%;
+        width: 20%;
+    }
+
+    .desnaslika img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .desnopreklapanje {
+        position: absolute;
+        bottom: 0;
+        left: 100%;
+        right: 0;
+        background-color: rgba(211, 75, 138, 0.581);
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: 3s ease;
+    }
+     
+    .section1:hover .desnopreklapanje {
+        width: 100%;
+        left: 0;
+    }
+
+    .desnitekst {
+        white-space: nowrap; 
+        color:rgb(59, 0, 33);
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Lobster",sans-serif;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    
+     
+
+
+
+
+
+
+
+
+
+
+

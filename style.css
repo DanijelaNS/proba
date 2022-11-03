@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffB48F;
+}
+
+li, a, button {
+    font-family: "Lobster", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(237, 33, 128);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: -150px;
+    height: 150px;
+}
+
+.nav_link {
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_link li a:hover {
+    color: rgba(144, 1, 76, 0.9)
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(59, 0, 33);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(137, 46, 127, 0.5); 
+}
+
+.glavni_naslov {
+    font-family: "lobster", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-shadow: 4px 4px rgba(59, 0, 33, 0.88);
+    text-align: center;
+    color: rgb(237, 33, 128);
+    text-decoration-line: underline;
+    border-bottom:20px groove rgba(137, 46, 127, 0.5);
+    border-top: 20px ridge rgba(137, 46, 127, 0.5);
+    padding: 20px;
+    margin: auto; 
+}
+
+.text_ispodnaslova {
+
+    margin: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(59, 0, 33);
+}
+.text_ispodnaslova h3 {
+
+    text-decoration: underline;
+}
+
+#text_omeni {
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 25px;
+
+}
+
+#naslovnaslika {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    padding: none;
+    object-fit: fill;
+    width: auto;
+    box-shadow: 10px 15px rgba(192, 130, 114, 0.5);
+}
